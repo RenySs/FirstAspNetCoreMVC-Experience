@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g8ru9Xesjmw=",
+  "dgSpecHash": "YpkgGBGT/Gw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\RENYS\\source\\repos\\ReservationAPP\\ReservationAPP\\ReservationAPP.csproj",
+  "projectFilePath": "C:\\Users\\RENYS\\Documents\\GitHub\\FirstAspNetCoreMVC-Experience\\ReservationAPP\\ReservationAPP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RENYS\\.nuget\\packages\\azure.core\\1.40.0\\azure.core.1.40.0.nupkg.sha512",
     "C:\\Users\\RENYS\\.nuget\\packages\\azure.identity\\1.12.0\\azure.identity.1.12.0.nupkg.sha512",
