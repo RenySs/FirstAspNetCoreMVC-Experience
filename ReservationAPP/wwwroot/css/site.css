@@ -1,0 +1,106 @@
+body {
+    font-size: .875rem;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100; /* Behind the navbar */
+    width: 250px; /* Geniþliði artýrdýk */
+    padding: 48px 0 0; /* Height of navbar */
+    background-color: #f8f9fa; /* Background rengini ayarladýk */
+}
+
+    .sidebar .nav-link {
+        color: #333;
+    }
+
+        .sidebar .nav-link:hover {
+            color: #0056b3;
+            background-color: #e9ecef;
+        }
+
+        .sidebar .nav-link.active {
+            color: #fff;
+            background-color: #6c757d;
+        }
+
+.sidebar-heading {
+    padding: 10px 15px;
+    font-size: 1.25rem;
+    text-align: center;
+    background-color: #6c757d;
+    color: white;
+}
+
+.main-content {
+    margin-left: 170px; /* Sidebar geniþliðine göre ayarladýk */
+    padding: 20px;
+}
+
+.bg-light { 
+    background-color: #f8f9fa !important;
+}
+
+/* Etli ekmek renk uyumu */
+body {
+    background-color: #f0e5d8;
+}
+
+.nav-link {
+    color: #4a2c2a;
+}
+
+    .nav-link:hover {
+        background-color: #d4b59e;
+    }
+
+/* Tablo responsive */
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+    .table th,
+    .table td {
+        padding: 0.75rem;
+        vertical-align: top;
+        border-top: 1px solid #6c757d;
+    }
+
+/* Footer stilleri */
+/*.footer {
+    width: 100px;*/ /* Sabit geniþlik */
+    /*height: 40px;
+   
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 0.5rem 0;*/ /* Küçük padding */
+    /*border-top: 1px solid #dee2e6;
+    position: fixed;*/ /* Normal akýþa göre, ancak konum deðiþtirilebilir */
+    /*top: 100px;
+}*/
+.footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    background-color: #000;
+    color: khaki;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}

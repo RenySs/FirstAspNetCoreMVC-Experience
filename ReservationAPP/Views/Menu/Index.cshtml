@@ -1,0 +1,227 @@
+﻿@* 	@using ReservationAPP.DTOs
+@model IEnumerable<ReservationAPP.Models.Menu>
+@{
+	ViewData["table"] = "Konyalı Kazım Usta Etli Ekmek Salonu Menu";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card">
+	<nav class="navbar navbar-example navbar-expand-lg">
+		<div class="container-fluid">
+			<h2 class="navbar-brand" style="--bs-navbar-brand-font-size: 2rem;">Menu</h2>
+			<button class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbar-ex-3">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbar-ex-3">
+				<div class="navbar-nav me-auto">
+				</div>
+				<form class="d-flex">
+					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+				</form>
+
+				<!--Add NEW Record Call Button-->
+				<button type="button"
+						class="btn btn-primary"
+						data-bs-toggle="modal"
+						data-bs-target="#exLargeModal">
+					Add New Food Record
+				</button>
+				<!--Add NEW Record Call Button Finish-->
+			</div>
+		</div>
+	</nav>
+	<div class="table-responsive text-nowrap">
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Id</th>
+					<th>Name</th>
+					<th>Price</th>
+					<th>Description</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+			<tbody class="table-border-bottom-0">
+				@foreach (var item in Model)
+				{
+					<tr>
+						<td>@Html.DisplayFor(modelItem => item.Id)</td>
+						<td>@Html.DisplayFor(modelItem => item.Name)</td>
+						<td>@Html.DisplayFor(modelItem => item.Price) TL</td>
+						<td style="white-space: pre-line;">@Html.DisplayFor(modelItem => item.Description)</td>
+						<td>
+							<div class="dropdown">
+								<button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+									<i class="bx bx-dots-vertical-rounded"></i>
+								</button>
+								<div class="dropdown-menu">
+									<a class="button" href='/Menu/EditPage/@item.Id'>
+										<button class="dropdown-item" type="button">
+											<i class="bx bx-edit-alt me-1"></i> Edit
+										</button>
+									</a>
+
+									<a class="dropdown-item" href="/Menu/DeleteRecord/@item.Id">
+										<i class="bx bx-trash me-1"></i> Delete
+									</a>
+								</div>
+							</div>
+						</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	</div>
+</div>
+
+@await Html.PartialAsync("AddNewRecord", new MenuAddDto())
+
+
+ @using ReservationAPP.DTOs
+@model IEnumerable<ReservationAPP.Models.Menu>
+@{
+	ViewData["table"] = "Konyalı Kazım Usta Etli Ekmek Salonu Menu";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="card">
+	<nav class="navbar navbar-example navbar-expand-lg">
+		<div class="container-fluid">
+			<h2 class="navbar-brand" style="--bs-navbar-brand-font-size: 2rem;">Menu</h2>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-ex-3">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbar-ex-3">
+				<div class="navbar-nav me-auto"></div>
+				<form class="d-flex">
+					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+				</form>
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exLargeModal">
+					Add New Food Record
+				</button>
+			</div>
+		</div>
+	</nav>
+	<div class="table-responsive text-nowrap">
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Id</th>
+					<th>Name</th>
+					<th>Price</th>
+					<th>Description</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+			<tbody class="table-border-bottom-0">
+				@foreach (var item in Model)
+				{
+					<tr>
+						<td>@Html.DisplayFor(modelItem => item.Id)</td>
+						<td>@Html.DisplayFor(modelItem => item.Name)</td>
+						<td>@Html.DisplayFor(modelItem => item.Price) TL</td>
+						<td style="white-space: pre-line;">@Html.DisplayFor(modelItem => item.Description)</td>
+						<td>
+							<div class="dropdown">
+								<button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+									<i class="bx bx-dots-vertical-rounded"></i>
+								</button>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="/Menu/EditPage/@item.Id">
+										<i class="bx bx-edit-alt me-1"></i> Edit
+									</a>
+									<a class="dropdown-item" href="/Menu/DeleteRecord/@item.Id">
+										<i class="bx bx-trash me-1"></i> Delete
+									</a>
+								</div>
+							</div>
+						</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	</div>
+</div>
+@await Html.PartialAsync("AddNewRecord", new MenuAddDto())
+ *@
+@using ReservationAPP.DTOs
+@model IEnumerable<Menu>
+@{
+	ViewData["table"] = "Konyalı Kazım Usta Etli Ekmek Salonu Menu";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card">
+	<span>
+	<nav class="navbar navbar-example navbar-expand-lg">
+		<div class="container-fluid">
+			<h2 class="navbar-brand" style="--bs-navbar-brand-font-size: 2rem;">Menu</h2>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-ex-3">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbar-ex-3">
+				<div class="navbar-nav me-auto"></div>
+				<form class="d-flex">
+					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+				</form>
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exLargeModal">
+					Add New Food Record
+				</button>
+			</div>
+		</div>
+	</nav>
+	<div class="table-responsive text-nowrap">
+		<table class="table">
+			<thead>
+			<tr>
+				<th>Id</th>
+				<th>Name</th>
+				<th>Price</th>
+				<th>Description</th>
+				<th>Select</th>
+				<th>Action</th>
+					
+			</tr>
+			</thead>
+				<tbody class="table-border-bottom-0" id="peopleTable" >
+			@foreach (var item in Model){
+				<tr>
+					<td>@Html.DisplayFor(modelItem => item.Id)</td>
+					<td style="white-space: pre-line;">@Html.DisplayFor(modelItem => item.Name)</td>
+					<td>@Html.DisplayFor(modelItem => item.Price) TL</td>
+					<td style="white-space: pre-line;">@Html.DisplayFor(modelItem => item.Description)</td>
+					<td>
+						<div>
+							<input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+						</div>
+					</td>
+					<td>
+						<div class="dropdown">
+							<button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+								<i class="bx bx-dots-vertical-rounded"></i>
+							</button>
+							<div class="dropdown-menu">
+								<button class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="@("#EditMenu-" + item.Id)" data-bs-url="@Url.Action($"_EditMenuPratialView/{item.Id}")">
+									<i class="bx bx-edit-alt me-1"></i> Edit
+								</button>
+								<a class="dropdown-item" href="/Menu/DeleteRecord/@item.Id">
+									<i class="bx bx-trash me-1"></i> Delete
+								</a>
+							</div>
+						</div>
+					</td>
+							@await Html.PartialAsync("_EditMenuPratialView", item)
+				</tr>
+			
+			}	
+			
+			
+			</tbody>
+		</table>
+	</div></span>
+</div>
+@await Html.PartialAsync("AddNewRecord", new MenuAddDto())
+
