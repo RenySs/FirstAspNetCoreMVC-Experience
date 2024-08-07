@@ -5,6 +5,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{89EF1674-EFE7-4024-BAFA-A34BED65204A}|ReservationAPP\\ReservationAPP.csproj|c:\\users\\renys\\documents\\github\\firstaspnetcoremvc-experience\\reservationapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89EF1674-EFE7-4024-BAFA-A34BED65204A}|ReservationAPP\\ReservationAPP.csproj|solutionrelative:reservationapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89EF1674-EFE7-4024-BAFA-A34BED65204A}|ReservationAPP\\ReservationAPP.csproj|c:\\users\\renys\\documents\\github\\firstaspnetcoremvc-experience\\reservationapp\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89EF1674-EFE7-4024-BAFA-A34BED65204A}|ReservationAPP\\ReservationAPP.csproj|solutionrelative:reservationapp\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89EF1674-EFE7-4024-BAFA-A34BED65204A}|ReservationAPP\\ReservationAPP.csproj|c:\\users\\renys\\documents\\github\\firstaspnetcoremvc-experience\\reservationapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89EF1674-EFE7-4024-BAFA-A34BED65204A}|ReservationAPP\\ReservationAPP.csproj|solutionrelative:reservationapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89EF1674-EFE7-4024-BAFA-A34BED65204A}|ReservationAPP\\ReservationAPP.csproj|c:\\users\\renys\\documents\\github\\firstaspnetcoremvc-experience\\reservationapp\\models\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89EF1674-EFE7-4024-BAFA-A34BED65204A}|ReservationAPP\\ReservationAPP.csproj|solutionrelative:reservationapp\\models\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89EF1674-EFE7-4024-BAFA-A34BED65204A}|ReservationAPP\\ReservationAPP.csproj|c:\\users\\renys\\documents\\github\\firstaspnetcoremvc-experience\\reservationapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{89EF1674-EFE7-4024-BAFA-A34BED65204A}|ReservationAPP\\ReservationAPP.csproj|solutionrelative:reservationapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,13 +38,62 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "C:\\Users\\RENYS\\Documents\\GitHub\\FirstAspNetCoreMVC-Experience\\ReservationAPP\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "ReservationAPP\\Controllers\\MenuController.cs",
+              "ToolTip": "C:\\Users\\RENYS\\Documents\\GitHub\\FirstAspNetCoreMVC-Experience\\ReservationAPP\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "ReservationAPP\\Controllers\\MenuController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T08:46:03.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\RENYS\\Documents\\GitHub\\FirstAspNetCoreMVC-Experience\\ReservationAPP\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ReservationAPP\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\RENYS\\Documents\\GitHub\\FirstAspNetCoreMVC-Experience\\ReservationAPP\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ReservationAPP\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAOkAAAAAAAAAAAAAANUAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T14:39:32.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Context.cs",
+              "DocumentMoniker": "C:\\Users\\RENYS\\Documents\\GitHub\\FirstAspNetCoreMVC-Experience\\ReservationAPP\\Models\\Context.cs",
+              "RelativeDocumentMoniker": "ReservationAPP\\Models\\Context.cs",
+              "ToolTip": "C:\\Users\\RENYS\\Documents\\GitHub\\FirstAspNetCoreMVC-Experience\\ReservationAPP\\Models\\Context.cs",
+              "RelativeToolTip": "ReservationAPP\\Models\\Context.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAACWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T13:27:45.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\RENYS\\Documents\\GitHub\\FirstAspNetCoreMVC-Experience\\ReservationAPP\\appsettings.json",
+              "RelativeDocumentMoniker": "ReservationAPP\\appsettings.json",
+              "ToolTip": "C:\\Users\\RENYS\\Documents\\GitHub\\FirstAspNetCoreMVC-Experience\\ReservationAPP\\appsettings.json",
+              "RelativeToolTip": "ReservationAPP\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-05T13:27:33.67Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\RENYS\\Documents\\GitHub\\FirstAspNetCoreMVC-Experience\\ReservationAPP\\Program.cs",
               "RelativeDocumentMoniker": "ReservationAPP\\Program.cs",
-              "ToolTip": "C:\\Users\\RENYS\\Documents\\GitHub\\FirstAspNetCoreMVC-Experience\\ReservationAPP\\Program.cs*",
-              "RelativeToolTip": "ReservationAPP\\Program.cs*",
-              "ViewState": "AQIAAAQAAAAAAAAAAADwvwoAAAArAAAA",
+              "ToolTip": "C:\\Users\\RENYS\\Documents\\GitHub\\FirstAspNetCoreMVC-Experience\\ReservationAPP\\Program.cs",
+              "RelativeToolTip": "ReservationAPP\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-02T08:11:36.877Z",
               "EditorCaption": ""
