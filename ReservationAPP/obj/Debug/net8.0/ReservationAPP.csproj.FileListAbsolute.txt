@@ -766,3 +766,7 @@ C:\Users\RENYS\Documents\GitHub\FirstAspNetCoreMVC-Experience\ReservationAPP\obj
 C:\Users\RENYS\Documents\GitHub\FirstAspNetCoreMVC-Experience\ReservationAPP\obj\Debug\net8.0\ReservationAPP.pdb
 C:\Users\RENYS\Documents\GitHub\FirstAspNetCoreMVC-Experience\ReservationAPP\obj\Debug\net8.0\ReservationAPP.genruntimeconfig.cache
 C:\Users\RENYS\Documents\GitHub\FirstAspNetCoreMVC-Experience\ReservationAPP\obj\Debug\net8.0\ref\ReservationAPP.dll
+C:\Users\Renys\Documents\GitHub\FirstAspNetCoreMVC-Experience\ReservationAPP\bin\Debug\net8.0\ReservationAPP.staticwebassets.endpoints.json
+C:\Users\Renys\Documents\GitHub\FirstAspNetCoreMVC-Experience\ReservationAPP\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Renys\Documents\GitHub\FirstAspNetCoreMVC-Experience\ReservationAPP\obj\Debug\net8.0\staticwebassets\msbuild.ReservationAPP.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Renys\Documents\GitHub\FirstAspNetCoreMVC-Experience\ReservationAPP\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -6,7 +6,7 @@ namespace ReservationAPP.Models
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=DESKTOP-2PO5NAH;Database=ReservationAppDb; Integrated Security=True; Trust Server Certificate=True;");
+            optionsBuilder.UseSqlServer("server=(localdb)\\MSSQLLocalDB;Database=ReservationAppDb; Integrated Security=True; Trust Server Certificate=True;");
         }
         public DbSet<Menu> Menu {  get; set; }
 
